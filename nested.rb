@@ -127,4 +127,6 @@ def adding_to_dennis
      }
   programmer_hash[:dennis_ritchie][:languages].push("Assembly")
   return programmer_hash
+  #can also be done by using the specific index of the array 
+  #like this: programmer_hash[:dennis_ritchie][:languages][1] = "Assembly"
 end
